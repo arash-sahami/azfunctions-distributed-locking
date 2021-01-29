@@ -12,7 +12,7 @@ namespace LockClient
         {
             Console.WriteLine("Hello World!");
 
-            var cosmosClient = new CosmosClient("AccountEndpoint=https://localhost:9000/;AccountKey=C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw=="
+            var cosmosClient = new CosmosClient(""
                     //, new CosmosClientOptions
                     //{
                     //    SerializerOptions = new CosmosSerializationOptions
