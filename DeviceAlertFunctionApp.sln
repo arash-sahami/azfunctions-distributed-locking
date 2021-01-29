@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceAlertFunctionApp", "DeviceAlertFunctionApp\DeviceAlertFunctionApp.csproj", "{0D0FA54E-9168-41C5-B458-ABBC2F34646F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MySolution", "MySolution", "{B2A94395-9A67-429C-8015-628E68A7488C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDistributedLock", "CosmosDistributedLock\CosmosDistributedLock.csproj", "{095E9C90-DD80-4672-B193-CE0D27747AA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockClient", "LockClient\LockClient.csproj", "{329F6DDB-3E25-4AA9-9950-3D76DD8B46F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,21 @@ Global
 		{0D0FA54E-9168-41C5-B458-ABBC2F34646F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D0FA54E-9168-41C5-B458-ABBC2F34646F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D0FA54E-9168-41C5-B458-ABBC2F34646F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095E9C90-DD80-4672-B193-CE0D27747AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095E9C90-DD80-4672-B193-CE0D27747AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095E9C90-DD80-4672-B193-CE0D27747AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095E9C90-DD80-4672-B193-CE0D27747AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329F6DDB-3E25-4AA9-9950-3D76DD8B46F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329F6DDB-3E25-4AA9-9950-3D76DD8B46F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329F6DDB-3E25-4AA9-9950-3D76DD8B46F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329F6DDB-3E25-4AA9-9950-3D76DD8B46F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{095E9C90-DD80-4672-B193-CE0D27747AA8} = {B2A94395-9A67-429C-8015-628E68A7488C}
+		{329F6DDB-3E25-4AA9-9950-3D76DD8B46F5} = {B2A94395-9A67-429C-8015-628E68A7488C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1E4C8C0-F632-4BA6-A4A3-13D65C70A3B8}

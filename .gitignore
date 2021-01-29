@@ -1,2 +1,7 @@
 ﻿.vs/DeviceAlertFunctionApp/v16
 .vscode
+CosmosDistributedLock/bin
+CosmosDistributedLock/obj
+**/bin
+**/obj
+**/Properties
